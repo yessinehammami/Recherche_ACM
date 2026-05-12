@@ -103,7 +103,7 @@ def page_recherche_acm(df):
         df = df.rename(columns={"N": "Référence"})
 
     columns_to_filter = [
-        "Produit", "Importateur", "Fournisseur", "Provenance", "N° Lot", "Fabrication", "Expiration", "article_code", "article_label"
+        "Produit", "Importateur", "Fournisseur", "Provenance", "N° Lot", "Fabrication", "Expiration", "article_code", "Référence"
     ]
 
     # Use session state to store filter selections
